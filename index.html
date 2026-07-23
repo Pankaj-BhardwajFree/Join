@@ -376,7 +376,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const eventId = "tg_sub_" + Date.now();
 
     if (typeof fbq !== "undefined") {
-      fbq('track', 'Subscribe', {}, { eventID: eventId });
+      fbq('track', 'Subscribe', { eventID: eventId });
     }
 
   });
